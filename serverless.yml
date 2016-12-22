@@ -69,7 +69,7 @@ functions:
 
 resources:
   Resources:
-    shareImagesDynamoDbTable:
+    ShareImagesDynamoDbTable:
       Type: 'AWS::DynamoDB::Table'
       DeletionPolicy: Retain
       Properties:
